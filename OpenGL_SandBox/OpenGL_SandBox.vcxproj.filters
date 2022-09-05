@@ -13,13 +13,38 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ソース ファイル\3.Shader">
+      <UniqueIdentifier>{9fac187a-ba28-4092-a216-57a5ed8dfade}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
     <ClCompile Include="glad.c">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="2.HelloTriangle.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="1.HelloWindow.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="3.Shader.cpp">
+      <Filter>ソース ファイル\3.Shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader3.fs">
+      <Filter>ソース ファイル\3.Shader</Filter>
+    </None>
+    <None Include="Shader3.vs">
+      <Filter>ソース ファイル\3.Shader</Filter>
+    </None>
   </ItemGroup>
 </Project>
