@@ -16,6 +16,9 @@
     <Filter Include="ソース ファイル\3.Shader">
       <UniqueIdentifier>{9fac187a-ba28-4092-a216-57a5ed8dfade}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\4.Texture">
+      <UniqueIdentifier>{3ea77d97-274d-4a57-a0bb-ef9124933b6d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -33,18 +36,30 @@
     <ClCompile Include="3.Shader.cpp">
       <Filter>ソース ファイル\3.Shader</Filter>
     </ClCompile>
+    <ClCompile Include="4.Texture.cpp">
+      <Filter>ソース ファイル\4.Texture</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Shader3.fs">
+    <None Include="Shader\Shader3.fs">
       <Filter>ソース ファイル\3.Shader</Filter>
     </None>
-    <None Include="Shader3.vs">
+    <None Include="Shader\Shader3.vs">
       <Filter>ソース ファイル\3.Shader</Filter>
+    </None>
+    <None Include="Shader\Shader4.frag">
+      <Filter>ソース ファイル\4.Texture</Filter>
+    </None>
+    <None Include="Shader\Shader4.vert">
+      <Filter>ソース ファイル\4.Texture</Filter>
     </None>
   </ItemGroup>
 </Project>
