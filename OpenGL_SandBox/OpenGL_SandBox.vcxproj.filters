@@ -19,6 +19,9 @@
     <Filter Include="ソース ファイル\4.Texture">
       <UniqueIdentifier>{3ea77d97-274d-4a57-a0bb-ef9124933b6d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\5.Transformations">
+      <UniqueIdentifier>{d39fc005-da70-4386-a2b4-58d3cb2e0e6a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -38,6 +41,9 @@
     </ClCompile>
     <ClCompile Include="4.Texture.cpp">
       <Filter>ソース ファイル\4.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="5.Transformations.cpp">
+      <Filter>ソース ファイル\5.Transformations</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -60,6 +66,12 @@
     </None>
     <None Include="Shader\Shader4.vert">
       <Filter>ソース ファイル\4.Texture</Filter>
+    </None>
+    <None Include="Shader\Shader5.frag">
+      <Filter>ソース ファイル\5.Transformations</Filter>
+    </None>
+    <None Include="Shader\Shader5.vert">
+      <Filter>ソース ファイル\5.Transformations</Filter>
     </None>
   </ItemGroup>
 </Project>
