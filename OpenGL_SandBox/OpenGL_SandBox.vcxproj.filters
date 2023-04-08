@@ -22,6 +22,9 @@
     <Filter Include="ソース ファイル\5.Transformations">
       <UniqueIdentifier>{d39fc005-da70-4386-a2b4-58d3cb2e0e6a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\6.CoordinateSystems">
+      <UniqueIdentifier>{26875a4b-0589-40fb-bf14-cfa0db8e3185}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glad.c">
@@ -44,6 +47,9 @@
     </ClCompile>
     <ClCompile Include="5.Transformations.cpp">
       <Filter>ソース ファイル\5.Transformations</Filter>
+    </ClCompile>
+    <ClCompile Include="6.CoordinateSystems.cpp">
+      <Filter>ソース ファイル\6.CoordinateSystems</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -72,6 +78,12 @@
     </None>
     <None Include="Shader\Shader5.vert">
       <Filter>ソース ファイル\5.Transformations</Filter>
+    </None>
+    <None Include="Shader\Shader6.frag">
+      <Filter>ソース ファイル\6.CoordinateSystems</Filter>
+    </None>
+    <None Include="Shader\Shader6.vert">
+      <Filter>ソース ファイル\6.CoordinateSystems</Filter>
     </None>
   </ItemGroup>
 </Project>

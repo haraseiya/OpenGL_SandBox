@@ -145,7 +145,11 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="5.Transformations.cpp" />
+    <ClCompile Include="5.Transformations.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="6.CoordinateSystems.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="1.HelloWindow.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
@@ -164,6 +168,8 @@
     <None Include="Shader\Shader4.vert" />
     <None Include="Shader\Shader5.frag" />
     <None Include="Shader\Shader5.vert" />
+    <None Include="Shader\Shader6.frag" />
+    <None Include="Shader\Shader6.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
